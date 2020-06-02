@@ -1,0 +1,79 @@
+.register {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #ffffff;
+}
+
+.heading{
+  text-align: center;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  padding: 20px;
+}
+
+.form input[type=text],.form input[type=number],.form input[type=varchar], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.form input[type=submit] {
+  background-color: rgb(108, 167, 255);
+  color: white;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  font-size: 15px;
+}
+
+.form input[type=reset] {
+  background-color: rgb(108, 167, 255);
+  color: white;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  float: left;
+  font-size: 15px;
+}
+
+.form input[type=submit]:hover,.form input[type=reset]:hover {
+  background-color: #daf0ff;
+  color:black;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, .form input[type=submit], .form input[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
