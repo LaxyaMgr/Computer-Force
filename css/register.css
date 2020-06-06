@@ -36,6 +36,7 @@ label {
   cursor: pointer;
   float: right;
   font-size: 15px;
+  font-weight:bold;
 }
 
 .form input[type=reset] {
@@ -46,6 +47,7 @@ label {
   cursor: pointer;
   float: left;
   font-size: 15px;
+  font-weight:bold;
 }
 
 .form input[type=submit]:hover,.form input[type=reset]:hover {
