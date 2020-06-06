@@ -65,6 +65,7 @@ height: 20%;
   color:white; 
   border: none;
   cursor: pointer;
+  font-weight:bold;
 }
 
 .topnav .search-container button:hover {
