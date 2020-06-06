@@ -39,6 +39,7 @@ height: 20%;
 .topnav a.active {
   background-color: rgb(108, 167, 255);
   color: white;
+  font-weight:bold;
 }
 
 .topnav .search-container {
