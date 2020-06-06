@@ -67,6 +67,16 @@
   margin-top: 6px;
 }
 
+.btn-clear {
+  float: left;
+  width: 50%;
+}
+
+.btn-submit {
+  float: right;
+  width: 50%;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -74,7 +84,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, .register form input[type=submit], .register form input[type=reset] {
+  .col-25, .col-75,.btn-clear, .btn-submit, .register form input[type=submit], .register form input[type=reset] {
     width: 100%;
     margin-top: 0;
   }
