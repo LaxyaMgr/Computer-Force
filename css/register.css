@@ -9,13 +9,13 @@
   text-align: center;
 }
 
-.form {
+.register form {
   border-radius: 5px;
   background-color: #e9e9e9;
   padding: 20px;
 }
 
-.form input[type=text],.form input[type=number],.form input[type=varchar], select, textarea {
+.register form input[type=text],.register form input[type=number],.register form input[type=varchar], select, textarea {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -28,7 +28,7 @@ label {
   display: inline-block;
 }
 
-.form input[type=submit] {
+.register form input[type=submit] {
   background-color: rgb(108, 167, 255);
   color: white;
   padding: 4px;
@@ -39,7 +39,7 @@ label {
   font-weight:bold;
 }
 
-.form input[type=reset] {
+.register form input[type=reset] {
   background-color: rgb(108, 167, 255);
   color: white;
   padding: 4px;
@@ -50,7 +50,7 @@ label {
   font-weight:bold;
 }
 
-.form input[type=submit]:hover,.form input[type=reset]:hover {
+.register form input[type=submit]:hover,.register form input[type=reset]:hover {
   background-color: #daf0ff;
   color:black;
 }
@@ -74,7 +74,7 @@ label {
 }
 
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, .form input[type=submit], .form input[type=reset] {
+  .col-25, .col-75, .register form input[type=submit], .register form input[type=reset] {
     width: 100%;
     margin-top: 0;
   }
