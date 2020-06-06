@@ -39,6 +39,7 @@ height: 20%;
 .topnav a.active {
   background-color: rgb(108, 167, 255);
   font-weight:bold;
+  color:black;
 }
 
 .topnav .search-container {
@@ -64,11 +65,11 @@ height: 20%;
   border: none;
   cursor: pointer;
   font-weight:bold;
+  color:black;
 }
 
 .topnav .search-container button:hover {
   background: #daf0ff;
-  color:black;
 }
 
 @media screen and (max-width: 600px) {
